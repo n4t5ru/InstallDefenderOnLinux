@@ -51,7 +51,7 @@ function main() {
     echo "${green}This machine will update Repo Metadata."
     sleep 10
     $normal
-    apt update
+    apt update -y
 
     # Now install the MDATP
     apt install mdatp
